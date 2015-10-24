@@ -1,0 +1,64 @@
+{
+    "incrementId": 11,
+    "appTitle": "Mr Lee",
+    "rightButtonText": "Tribute",
+    "rightButtonUrl": "http://www.bilingualism.sg/donations/donations",
+    "coverImageUrl": "assets/img/remember.jpg",
+    "contents": [
+        {
+            "id": 1,
+            "src": "assets/img/lky1.jpg",
+            "description": "Singapore's first prime minister Lee Kuan Yew of the People's Action Party speaking during a rally at Farrer Park in Singapore on Aug. 15, 1955. "
+        },
+        {
+            "id": 2,
+            "src": "assets/img/lky2.jpg",
+            "description": "Mr. Lee was hoisted by supporters after leading his People's Action Party to a landslide victory in the Singapore elections on Sept. 21, 1963."
+        },
+        {
+            "id": 3,
+            "src": "assets/img/lky3.jpg",
+            "description": "Mr. Lee, right, and his wife Kwa Geok Choo, second left, posing with Japanese Emperor Hirohito and his wife Empress Nagako in the Tokyo Imperial Palace on Oct. 15, 1968."
+        },
+        {
+            "id": 4,
+            "src": "assets/img/lky4.jpg",
+            "description": "Mr. Lee shaking hands with French Prime Minister Jacques Chirac at Matignon in Paris on July 2, 1974. "
+        },
+        {
+            "id": 5,
+            "src": "assets/img/lky5.jpg",
+            "description": "Mr. Lee speaking to a packed lunchtime rally crowd at Fullerton Square in Singapore on Dec. 20, 1976."
+        },
+        {
+            "id": 6,
+            "src": "assets/img/lky6.jpg",
+            "description": "Mr. Lee thanking voters who elected him as a member of Parliament for the Tanjong Pagar constituency in Singapore on Sept. 11, 1988"
+        },
+        {
+            "id": 7,
+            "src": "assets/img/lky7.jpg",
+            "description": "Mr. Lee taking his oath of office as senior minister in the new government of Prime Minister Goh Chok Tong, left, as President Wee Kim Wee, front right, looks on, in Singapore on Nov. 28, 1990."
+        },
+        {
+            "id": 8,
+            "src": "assets/img/lky8.jpg",
+            "description": "Mr. Lee and his wife blowing out candles on his birthday cake as he celebrated his 80th birthday in Singapore on Sept. 16, 2003."
+        },
+        {
+            "id": 9,
+            "src": "assets/img/lky9.jpg",
+            "description": "Newly-appointed Prime Minister Lee Hsien Loong, right, shaking hands with his father, Minister Mentor Lee Kuan Yew, at the presidential palace in Singapore on Aug. 12, 2004."
+        },
+        {
+            "id": 10,
+            "src": "assets/img/lky10.jpg",
+            "description": "Mr. Lee met with U.S. President Barack Obama in the Oval Office of the White House in Washington, D.C., on Oct. 29, 2009."
+        },
+        {
+            "id": 11,
+            "src": "assets/img/lky12.jpg",
+            "description": "Mr. Lee waving to supporters as he arrived at an elections nomination center in Singapore on April 27, 2011."
+        }
+        ]
+}

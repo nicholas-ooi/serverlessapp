@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta charset="UTF-8">
+        <title>LKY Tribute App</title>
+        <link type="text/css" rel="stylesheet" href="assets/css/chui-ios-3.8.3.min.css">
+        <link type="text/css" rel="stylesheet" href="assets/css/main.css">
+        <link type="text/css" rel="stylesheet" href="assets/js/jquery-editable/css/jquery-editable.css">
+
+        <script type="text/javascript" src="assets/js/jquery-2.1.3.min.js"></script>
+        <!-- CONFLICTING WITH JQUERY NOT GOOD ->> <script type="text/javascript" src="assets/js/chui-3.8.3.min.js"></script>-->
+
+        <script type="text/javascript" src="assets/js/jquery-editable/js/jquery-editable-poshytip.min.js"></script>
+        <script type="text/javascript" src="assets/js/settings.min.js"></script>
+
+    </head>
+
+    <body>
+        <nav style="background: #222;" class="current">
+            <button class="saveButton back" style="color:#fff;font-size:14px;text-decoration: underline;">Save</button>
+            <h1 ><a href="index.html" style="color:#fff;font-weight:bold;" class="appTitle">App Title</a></h1>
+            <button class="donateButton align-flush" style="color:#fff;font-size:14px;text-decoration: underline;margin-top:10px;">Donate</button>
+        </nav>
+
+        <article>
+            <section style="padding-top:0px;">
+                <div>
+                    <ul class='list' style="border:none;">
+                        <li class='comp' style="background:#000;border:none;">
+                            <div style="border:none;">
+                                <b style="color:#fff;">Header Title</b>
+                                <input class="titleBox" style="width:100%;padding:10px;padding-right:0px;" type="text" value="" placeholder="Title of the App..." />
+                            </div>                        
+                        </li>
+                        <li class='comp' style="background:#000;border:none;">
+                            <div style="border:none;">
+                                <b style="color:#fff;">Right Button Text</b>
+                                <input class="rightHandButton" style="width:100%;padding:10px;padding-right:0px;" type="text" value="" placeholder="Button text.." />
+                            </div>                        
+                        </li>
+                        <li class='comp' style="background:#000;border:none;">
+                            <div style="border:none;">
+                                <b style="color:#fff;">Right Button URL</b>
+                                <input class="rightHandButtonUrl" style="width:100%;padding:10px;padding-right:0px;" type="text" value="" placeholder="Button text.." />
+                            </div>                        
+                        </li>
+                        <li class='comp' style="background:#000;border:none;">
+                            <div style="border:none;">
+                                <b style="color:#fff;">Cover Image URL</b>
+                                <input class="coverImageUrl"  style="width:100%;padding:10px;padding-right:0px;" type="text" value="" placeholder="The first cover image url..." />
+                            </div>                        
+                        </li>
+                        <li class='comp' style="background:#000;border:none;">
+                            <div class="coverImage" style="border:none;">
+                                <div style="border: dashed;color:#eee;height:100px;width:100%;">
+                                    <p style="text-align: center">Cover Image Preview</p>
+                                </div>
+                            </div>                        
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="addContentArea">
+
+                    <ul class='list' style="border:none;">
+                        <li class='comp' style="background:#000;border:none;">
+                            <div style="border:none;">
+                                <b style="color:#fff;">Image URL</b>
+                                <input class="addContentImgUrl" style="width:100%;padding:10px;padding-right:0px;" type="text" value="" placeholder="The Image URL..." />
+                            </div>                                             
+                        </li>
+                        <li class='comp' style="background:#000;border:none;">
+                            <div style="border:none;">
+                                <b style="color:#fff;">Description</b>
+                                <textarea class="addDescription" style="width:100%;padding:10px;padding-right:0px;height:50px;" placeholder="Add some details here..."></textarea>
+                            </div>                                             
+                        </li>
+                        <li class='comp' style="background:#000;border:none;">
+                            <div style="border:none;">
+                                <button style="color:#fff;background:#4cd964;" type="button" class="addNewButton action" >Add A New Content</button>
+                            </div>                        
+                        </li>
+                    </ul>
+                    <ul class='list' style="border:none;">
+
+                        <li class='comp' style="background:#000;border:none;">
+                            <div style="border:none;">
+                                <b style="color:#fff;">Copy this and share data code</b>
+                                <textarea id="shareContent" style="width:100%;height:70px;border:dashed;"></textarea>
+                            </div>                        
+                        </li>
+
+                        <li class='comp' style="background:#000;border:none;">
+                            <div style="border:none;">
+                                <b style="color:#fff;">Paste data code here</b>
+                                <textarea id="importContent" style="width:100%;height:70px;border:dashed;"></textarea>
+                            </div>                        
+                        </li>
+                        <li class='comp' style="background:#000;border:none;">
+                            <div style="border:none;">
+                                <button style="color:#fff;background:#222;" type="button" class="importButton action" >Import Data Code</button>
+                            </div>                        
+                        </li>
+                        <li class='comp' style="background:#000;border:none;">
+                            <div style="border:none;">
+                                <button style="color:#fff;background:#ff3b30;" type="button" class="clearButton action" >Clear Everything</button>
+                            </div>                        
+                        </li>
+                    </ul>
+
+                </div>
+            </section>
+        </article>
+        <div class='error' style='display:none'>Event Created</div>
+    </body>
+</html>
+
